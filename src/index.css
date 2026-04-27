@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Georgia", ui-serif, "Palatino", "Times New Roman", serif;
+  
+  --color-natural-bg: #f5f5f0;
+  --color-natural-sidebar: #e8e8df;
+  --color-natural-accent: #5a5a40;
+  --color-natural-text: #2d2d24;
+  --color-natural-muted: #848472;
+}
+
+@layer base {
+  body {
+    @apply bg-natural-bg text-natural-text;
+  }
+}
